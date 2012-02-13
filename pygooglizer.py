@@ -36,9 +36,7 @@ try:
     text = clipboard.wait_for_text()
     webbrowser.open("http://www.google.com/search?q=%s" % text)
     
-    return 0
 except:
 
-    return 99
-
+    pass
 
